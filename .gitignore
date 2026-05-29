@@ -1,0 +1,11 @@
+DiffFluxReconstruction-venv/
+
+DiffFluxReconstruction.egg-info/
+
+Scripts/__pycache__
+
+Modules/__pycache__
+
+build/
+
+.DS_Store
