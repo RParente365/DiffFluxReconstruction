@@ -149,7 +149,7 @@ def main(experimentName, nValSamples, maxEpochs, nCheckpointsKept) -> None:
     #######################
     # Setting up the tuner
     #######################
-    datasetsPath = f"{GetRootPath()}/Data/NeuralNetworks/DatasetList_RPLS.pkl"
+    datasetsPath = f"{GetRootPath()}/Data/NeuralNetworks/DatasetList_RPLS_VariableInputs/5DetectionBins.pkl"
     storageDir = f"{GetRootPath()}/Data/NeuralNetworks/HypParTuningExperiments"
     experimentPath = str(Path(storageDir) / experimentName)
     minEpochs = 20

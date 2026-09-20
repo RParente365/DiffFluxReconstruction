@@ -23,9 +23,9 @@ RolloverEnergies = torch.logspace(0, 2, nRolloverEnergies)
 
 # Choosing what detection bins will be simulated
 detectionBinListDict = {
-    "3ChannelInputs": [1, 3, 4],
-    "4ChannelInputs": [1, 3, 4, 5],
-    "5ChannelInputs": [1, 3, 4, 5, 6]
+    "3DetectionBins": [1, 3, 4],
+    "4DetectionBins": [1, 3, 4, 5],
+    "5DetectionBins": [1, 3, 4, 5, 6]
 }
 
 for key, detectionBinList in detectionBinListDict.items():

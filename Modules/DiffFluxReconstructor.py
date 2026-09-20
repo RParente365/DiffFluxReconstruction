@@ -74,7 +74,7 @@ class DiffFluxReconstructor:
         maskDict: Mask dictionary from ensemble selection (useful to know which ensemble was used to estimate the differential flux parameters)
     '''
     def __call__(self, countRates: torch.Tensor, **kwargs):
-        # If no bkgMean is given assume, it is 0
+        # If no bkgMean is given, assume it is 0
         bkgMean = kwargs.get("bkgMean", torch.zeros(self.nDetectionBins))
 
         ###############################
