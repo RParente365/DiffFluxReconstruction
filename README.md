@@ -5,7 +5,7 @@ This repository contains the code and data used for the paper:
 **Authors:** Rafael Antunes Parente, Marco Pinto, Inês Ochoa, António Pessanha Gomes, Patrícia Gonçalves  
 **Preprint:** [https://doi.org/10.22541/essoar.15005326/v1](https://doi.org/10.22541/essoar.15005326/v1)  
 
-In this project, a machine learning model was developed to reconstruct the differential proton flux spectrum from RADEM count rates by estimating the rolling power law parameters:
+In this project, a machine learning model was developed to reconstruct the differential proton flux spectrum from RADEM count rates by estimating the parameters of the rolling power law spectrum (also known as the Ellison-Ramaty form):
 * **Flux Intensity**
 * **Spectral Index**
 * **Rollover Energy**
