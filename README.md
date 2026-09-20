@@ -71,5 +71,9 @@ DiffFluxReconstruction-venv\Scripts\activate.bat
 
 Install the required libraries and the Python modules developed in this project:
 ```bash
-pip install -r requirements.txt
+pip install . 
 ```
+
+If you plan on editing the Python modules, install in editable mode so your changes take effect without needing to reinstall:
+```bash
+pip install -e . 
