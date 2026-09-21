@@ -41,9 +41,11 @@ for key, detectionBinList in detectionBinListDict.items():
 
     # Calculate the flux spectra for all combinations of Spectral Indices and Rollover Energies
     FluxSpectra = torch.pow(energies, -SpectralIndices_grid) * torch.exp(-energies/RolloverEnergies_grid)
+    print(FluxSpectra.shape)
 
-    # Integrate the flux spectra, then multiply by the intensities to get the simulated counts
+    # Integrate the flux spectra
     Counts = FluxToCounts(FluxSpectra, responseFunctions, energies)
+    print(Counts.shape)
 
     # After integrating, the counts are concatenated to the grid tensors 
     simData = torch.concat((SpectralIndices_grid, RolloverEnergies_grid, Counts), dim=-1)
