@@ -3,7 +3,7 @@
 This repository contains the code and data used for the paper:  
 **"Flux reconstruction with Machine Learning techniques for the ESA JUICE mission radiation monitor, RADEM"**  
 **Authors:** Rafael Antunes Parente, Marco Pinto, Inês Ochoa, António Pessanha Gomes, Patrícia Gonçalves  
-**Preprint:** [https://doi.org/10.1029/2026SW005219](https://doi.org/10.1029/2026SW005219)  
+**Published Paper:** [https://doi.org/10.1029/2026SW005219](https://doi.org/10.1029/2026SW005219)  
 
 In this project, a machine learning model was developed to reconstruct the differential proton flux spectrum from RADEM count rates by estimating the parameters of the rolling power law spectrum (also known as the Ellison-Ramaty form):
 * **Flux Intensity**
